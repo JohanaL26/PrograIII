@@ -1,6 +1,6 @@
 ﻿namespace Clase2601
 {
-    partial class Form1
+    partial class Clase2601
     {
         /// <summary>
         ///  Required designer variable.
@@ -106,7 +106,7 @@
             this.Mostrarbutton.UseVisualStyleBackColor = true;
             this.Mostrarbutton.Click += new System.EventHandler(this.Mostrarbutton_Click);
             // 
-            // Form1
+            // Clase2601
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -119,8 +119,8 @@
             this.Controls.Add(this.Num1textBox);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Clase2601";
+            this.Text = "Clase2601";
             this.ResumeLayout(false);
             this.PerformLayout();
 
