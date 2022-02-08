@@ -167,7 +167,7 @@
             this.EdadtextBox.Name = "EdadtextBox";
             this.EdadtextBox.Size = new System.Drawing.Size(134, 23);
             this.EdadtextBox.TabIndex = 16;
-            this.EdadtextBox.TextChanged += new System.EventHandler(this.EdadtextBox_TextChanged);
+
             // 
             // label7
             // 
@@ -177,7 +177,7 @@
             this.label7.Size = new System.Drawing.Size(33, 15);
             this.label7.TabIndex = 17;
             this.label7.Text = "Edad";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
+
             // 
             // Clase0102FuncionesFechas
             // 
