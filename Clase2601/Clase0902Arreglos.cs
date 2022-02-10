@@ -46,8 +46,36 @@ namespace Clase2601
                 listBox1.Items.Add(item);
             }
 
+        }
 
 
+
+ //*******************************************************************************************************************
+        //MATRICES
+        private void Matrizbutton_Click(object sender, EventArgs e)
+        {
+            //matriz dada
+            int[,] matriz1 = new int[2, 3]
+            {{4,5,30 },{9,7,10} };
+
+            //matriz para llenar
+            int[,] matriz2 = new int[3, 3];
+            for (int fila = 0; fila < matriz2.GetLength(0); fila++)
+            {
+                for (int columna = 0; columna < matriz2.GetLength(1); columna++)
+                {
+                    matriz2[fila, columna] = 4 + (fila + 4) * (columna + 3);
+                }
+            }
+
+            //mostrar matriz
+            for (int fila = 0; fila < matriz2.GetLength(0); fila++)
+            {
+                for (int columna = 0; columna < matriz2.GetLength(1); columna++)
+                {
+                    listBox2.Items.Add("la psoicion: [" + fila+","+columna+"] = "+matriz2[fila,columna]);
+                }
+            }
 
         }
     }
