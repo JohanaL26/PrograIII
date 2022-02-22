@@ -181,7 +181,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(644, 350);
+            this.ClientSize = new System.Drawing.Size(644, 372);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.EdadtextBox);
             this.Controls.Add(this.SumaDiastextBox);
